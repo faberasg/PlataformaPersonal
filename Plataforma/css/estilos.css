@@ -1,0 +1,297 @@
+@charset "utf8";
+/* CSS Document */
+
+* { list-style:none; 
+margin:0;
+padding:0;
+text-decoration:none;
+}
+body{color: black;
+}
+
+#header{
+	background: #222 url('../img/2.jpg ') center center no-repeat;
+	background-attachment:fixed;	
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+}
+
+
+#seccion2{
+	background: #222 url('../img/5.jpg ') center center no-repeat;
+	background-attachment:fixed;	
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	height: 710px;
+	background-repeat: no-repeat;
+}
+
+#seccion3{
+	background: #222 url('../img/1.jpg ') center center no-repeat;
+	background-attachment:fixed;	
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	height: 710px;
+	background-repeat: no-repeat;
+}
+
+#seccion4{
+	background: #222 url('../img/4.jpg ') center center no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	display: flex;
+	align-items: center;
+	height: 710px;
+	background-repeat: no-repeat;
+}
+
+#seccion5{
+	background: #222 url('../img/6.jpg ') center center no-repeat;
+	background-attachment:fixed;	
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	height: 710px;
+	background-repeat: no-repeat;
+}
+
+.container-fluid{
+	padding: 0px !important;
+}
+
+.row{
+	margin: 0px 0px;
+}
+
+
+
+
+#logo1{width: 100%;
+	margin-top: 5vh;
+	margin-left:15vh;
+	}
+
+#logo2{width: 100%;
+		margin-top: 20vh;
+		}
+#logo3{width: 100%;
+	margin-left:10vh;
+}
+
+
+.info{background: rgb(255, 255, 255);
+position: relative;
+left: 8%;
+padding-bottom: 30px;
+
+ border-radius: 8px;
+padding-top: 30px;
+}
+
+.des{background: rgb(255, 255, 255, 0.7);
+	margin-top: 10vh;
+	border-radius: 10px; }
+
+	.des p{
+		margin-top:2vh;
+	}
+
+.info2{background: rgb(255, 255, 255, 0.7);
+	padding-bottom: 30px;
+	 border-radius: 8px;
+	padding-top: 30px;
+	position: relative;
+
+left: 1%;
+	}
+
+.img{float: left;
+width: 18%;}
+
+.img2{float: left;
+	width: 18%;}
+
+.fotos{position: absolute;
+    z-index: 20;
+    top: -79px;
+    left: 61%;
+	/* right: 0px; */
+	width: 225px;
+	
+}
+
+.fotos2{position: absolute;
+    z-index: 20;
+    top: -79px;
+    left: 61%;
+	/* right: 0px; */
+	width: 225px;}
+
+	.fotos3{position: absolute;
+		z-index: 20;
+		top: -80px;
+		left: 61%;
+		/* right: 0px; */
+		width: 225px;
+		
+	}
+
+#im1{
+	position: relative;
+	right: 55px;
+}
+
+#im3{
+	position: relative;
+	left: 55px;
+}
+.btn{position: absolute;
+left: 78%;
+bottom: 7%;
+}
+
+
+.page-footer{
+	background-color:#2b3a36 ;
+	color: white;
+	
+	
+
+}
+
+.footer-copyright{
+	background-color: #3f534e;
+	color: white;
+	
+
+}
+
+
+@media screen and (min-width: 0px){
+	#seccion2 ul{
+		display: none;
+	}
+	#seccion3 ul{
+		display: none;
+	}
+	#seccion4 ul{
+		display: none;
+	}
+	#seccion5 ul{
+		display: none;
+	}
+
+.info{
+	left: 5%;
+	margin-bottom: 15%;
+}
+#logo{width: 100%;
+	margin-left:10vh;
+	margin-top: 5vh;
+}
+#logo3{width: 100%;
+	margin-left:10vh;
+	margin-top: 5vh;
+}
+
+}
+
+@media screen and (min-width: 700px){
+	#seccion2 ul{
+		display: none;
+	}
+	#seccion3 ul{
+		display: none;
+	}
+	#seccion4 ul{
+		display: none;
+	}
+	#seccion5 ul{
+		display: none;
+	}
+	#logo{width: 100%;
+		margin-left:10vh;
+		margin-top: 5vh;
+	}
+	#logo3{width: 100%;
+		margin-left:10vh;
+		margin-top: 5vh;
+	}
+	
+
+}
+
+@media screen and (min-width: 950px){
+	
+	#seccion2 ul{
+		display: list-item;
+	}
+	#seccion3 ul{
+		display: list-item;
+	}
+	#seccion4 ul{
+		display: list-item;
+	}
+	#seccion5 ul{
+		display: list-item;
+	}
+	#logo{width: 100%;
+		margin-left:12vh;
+		position: relative;
+		top: 15%;
+	}
+	#logo3{width: 100%;
+		margin-left:10vh;
+		position: relative;
+		top: 5vh;
+	}
+	
+
+	.info{ background: rgba(255, 255, 255, 0.7);
+		position: relative;
+		left: 8%;
+		top: 100px;
+		 border-radius: 8px;
+
+		}
+
+		.info2{background: rgb(255, 255, 255, 0.7);
+			padding-bottom: 30px;
+			 border-radius: 8px;
+			padding-top: 30px;
+			position: relative;
+		
+		left: 11%;
+			}
+
+			#logo1{position: relative;
+				width: 100%;
+				margin-top: 5vh;
+				margin-left:15vh;
+				left:5%;
+				}
+				#logo11{position: relative;
+					width: 100%;
+					margin-top: 5vh;
+					margin-left:15vh;
+					left:40%;
+					}
+
+					.foot{
+					margin-left:58vh;
+					}
+	}
+
+
+
+
+
+
+
+
+
+
+
